@@ -1,0 +1,20 @@
+Script started on Fri 13 Nov 2020 10:02:11 AM EST
+[mjdarcy@centos246 cis246lab2]$ cd
+[mjdarcy@centos246 ~]$ mkdir archive bak[Kckup
+[mjdarcy@centos246 ~]$ cd /var/log
+[mjdarcy@centos246 log]$ sudo tar -cvf /home/mjdary[Kcy/ac[Krchive/log.tar ([K*.log
+[sudo] password for mjdarcy: 
+boot.log
+vboxadd-install.log
+vboxadd-setup.log
+yum.log
+[mjdarcy@centos246 log]$ tar 0-[K[K0-[K-[K[K0[K0-[K-[K[K-[K[K[K[K[Kcd /home/mjdarcy/[K[K[K[K[K[K[K[K[K[K[K[K[K[K~/archive
+[mjdarcy@centos246 archive]$ tar -tf log.tar 
+boot.log
+vboxadd-install.log
+vboxadd-setup.log
+yum.log
+[mjdarcy@centos246 archive]$ tar -xf log.tar -C ![K~/backup
+[mjdarcy@centos246 archive]$ exit
+
+Script done on Fri 13 Nov 2020 10:06:21 AM EST
